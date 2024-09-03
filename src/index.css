@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .app-container {
+        @apply container max-w-screen-xl px-2 mx-auto sm:px-8;
+    }
+}
